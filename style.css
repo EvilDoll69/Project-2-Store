@@ -1,3 +1,68 @@
 body {
-  
+  background-color: bisque;
+  font-family: 'Beau Rivage', cursive;
+  font-family: 'Bungee', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  color: wheat;
+}
+
+img {
+  width: 20%;
+  margin-top: 30px;
+}
+
+.item {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  width: 80%;
+}
+
+.one {
+  background-image: url("1.avif");
+}
+
+.two {
+  background-image: url("2.avif");
+}
+
+.three {
+  background-image: url("3.avif");
+}
+
+.four {
+  background-image: url("4.avif");
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
 }
